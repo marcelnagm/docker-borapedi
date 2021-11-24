@@ -1,0 +1,33 @@
+version: '3.3'
+services:
+  web:
+       image: php:7.3-apache
+       container_name: php73
+       volumes:
+          - ./html:/var/www/html
+          - ./vhost.conf:/etc/apache2/sites-enabled/000-default.conf
+#       command: a2enmod rewrite; service apache2 restart;
+       ports:
+          - 80:80
+#       depends_on:
+#         - db
+ db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      VPS 1
+IP address	server type	VNC IP and port	VNC password	user name	password	operating system
+185.230.138.233	VPS S SSD	178.18.240.107:63133	A24w6L3d	root	NX587sfkj3rat	Ubuntu 20.04 (64 Bit)
+
+IP address	panel type	user name	password	address
+185.230.138.233	Webmin	root	NX587sfkj3rat	https://vmi725382.contaboserver.net:10000/
+
+VPS 2
+
+P address	server type	VNC IP and port	VNC password	user name	password	operating system
+185.230.138.232	VPS S SSD	178.18.245.161:63165	HfogK4Ce	root	G75H4oBgmjcdex	Ubuntu 20.04 (64 Bit)
+
+IP address	panel type	user name	password	address
+185.230.138.232	Webmin	root	G75H4oBgmjcdex	https://vmi725381.contaboserver.net:10000/
+

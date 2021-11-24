@@ -1,0 +1,53 @@
+version: '3.3'
+services:
+  web:
+       image: php:7.3-apache
+       container_name: php73
+       build:
+            context: ./dockerfiles
+            dockerfile: php73.docker
+       volumes:
+          - ./html:/var/www/html
+          - ./vhost.conf:/etc/apache2/sites-enabled/000-default.conf
+       deploy:
+        replicas: 2
+        update_config:
+            parallelism: 2
+        restart_policy:
+          condition: on-failure
+       links:
+       - "db:database"
+       ports:
+          - 80:80
+       environment:
+         WWWUSER: borapedi
+         WWWGROUP: borapedi    
+       depends_on:
+         - db
+  db:
+    container_name: db
+    image: mariadb:10.2
+    environment:
+      MYSQL_ROOT_PASSWORD: pass
+      MYSQL_DATABASE: bbanco
+      MYSQL_USER: usuario
+      MYSQL_PASSWORD: senha
+    ports:
+     - "3306:3306"
+    logging:
+      driver: syslog
+      options:
+        tag: "{{.DaemonName}}(image={{.ImageName}};name={{.Name}};id={{.ID}})"
+    restart: on-failure
+    volumes:
+     - ${PWD}/mariadb:/var/lib/mysql
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8000:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=db
+    depends_on:
+      - db
