@@ -2,36 +2,31 @@ version: '3.3'
 services:
   web:
        image: php:7.3-apache
-       container_name: php73
+#       container_name: php73
        build:
             context: ./dockerfiles
             dockerfile: php73.docker
        volumes:
           - ./html:/var/www/html
           - ./vhost.conf:/etc/apache2/sites-enabled/000-default.conf
-       deploy:
-        replicas: 2
-        update_config:
-            parallelism: 2
-        restart_policy:
-          condition: on-failure
        links:
        - "db:database"
        ports:
-          - 80:80
+          - 80
        environment:
          WWWUSER: borapedi
          WWWGROUP: borapedi    
        depends_on:
          - db
+         - nginx
   db:
     container_name: db
     image: mariadb:10.2
     environment:
-      MYSQL_ROOT_PASSWORD: pass
-      MYSQL_DATABASE: bbanco
-      MYSQL_USER: usuario
-      MYSQL_PASSWORD: senha
+      MYSQL_ROOT_PASSWORD: 29uHIqY8duH3
+      MYSQL_DATABASE: borapedi_food
+      MYSQL_USER: borapedi_user
+      MYSQL_PASSWORD: 29uHIqY8duH3
     ports:
      - "3306:3306"
     logging:
@@ -51,3 +46,10 @@ services:
       - PMA_HOST=db
     depends_on:
       - db
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
