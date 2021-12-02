@@ -1,0 +1,47 @@
+version: '3.3'
+services:
+  portainer:
+    container_name: portainer
+    entrypoint:
+      - /portainer
+    environment:
+      - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    image: cr.portainer.io/portainer/portainer-ce:2.9.3
+    ipc: private
+    logging:
+      driver: json-file
+      options: {}
+    ports:
+      - 8000:8000/tcp
+      - 9442:9443/tcp
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/portainer_data/data
+    working_dir: /
+  node:
+       image: mynode:tag
+#       container_name: php73
+       build:
+            context: ./
+            dockerfile: node.docker
+       volumes:
+          - ./WhatsApp/tokens:/home/node/app/tokens
+       environment:
+          NODE_ENV: development
+#       command: /app/entrypoint.sh
+       ports:
+          - 9002:9002
+       environment:
+        - HOST=0.0.0.0
+        - PORT=9002
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+volumes:
+    portainer_data: 
+     driver: local

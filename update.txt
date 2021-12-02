@@ -1,0 +1,416 @@
+Get:1 http://asi-fs-d.contabo.net/ubuntu impish InRelease [270 kB]
+Get:2 http://asi-fs-d.contabo.net/ubuntu impish-updates InRelease [110 kB]
+Get:3 http://asi-fs-d.contabo.net/ubuntu impish-backports InRelease [101 kB]
+Get:4 http://asi-fs-d.contabo.net/ubuntu impish-security InRelease [110 kB]
+Get:5 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 Packages [1396 kB]
+Get:6 http://asi-fs-d.contabo.net/ubuntu impish/main Translation-en [511 kB]
+Get:7 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 c-n-f Metadata [29.8 kB]
+Get:8 http://asi-fs-d.contabo.net/ubuntu impish/restricted amd64 Packages [82.2 kB]
+Get:9 http://asi-fs-d.contabo.net/ubuntu impish/restricted Translation-en [11.9 kB]
+Get:10 http://asi-fs-d.contabo.net/ubuntu impish/restricted amd64 c-n-f Metadata [452 B]
+Get:11 http://asi-fs-d.contabo.net/ubuntu impish/universe amd64 Packages [13.1 MB]
+Get:12 http://asi-fs-d.contabo.net/ubuntu impish/universe Translation-en [5463 kB]
+Get:13 http://asi-fs-d.contabo.net/ubuntu impish/universe amd64 c-n-f Metadata [279 kB]
+Get:14 http://asi-fs-d.contabo.net/ubuntu impish/multiverse amd64 Packages [209 kB]
+Get:15 http://asi-fs-d.contabo.net/ubuntu impish/multiverse Translation-en [108 kB]
+Get:16 http://asi-fs-d.contabo.net/ubuntu impish/multiverse amd64 c-n-f Metadata [8124 B]
+Get:17 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 Packages [170 kB]
+Get:18 http://asi-fs-d.contabo.net/ubuntu impish-updates/main Translation-en [44.7 kB]
+Get:19 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 c-n-f Metadata [2748 B]
+Get:20 http://asi-fs-d.contabo.net/ubuntu impish-updates/restricted amd64 Packages [94.8 kB]
+Get:21 http://asi-fs-d.contabo.net/ubuntu impish-updates/restricted Translation-en [13.4 kB]
+Get:22 http://asi-fs-d.contabo.net/ubuntu impish-updates/restricted amd64 c-n-f Metadata [436 B]
+Get:23 http://asi-fs-d.contabo.net/ubuntu impish-updates/universe amd64 Packages [49.4 kB]
+Get:24 http://asi-fs-d.contabo.net/ubuntu impish-updates/universe Translation-en [21.4 kB]
+Get:25 http://asi-fs-d.contabo.net/ubuntu impish-updates/universe amd64 c-n-f Metadata [1872 B]
+Get:26 http://asi-fs-d.contabo.net/ubuntu impish-updates/multiverse amd64 Packages [3428 B]
+Get:27 http://asi-fs-d.contabo.net/ubuntu impish-updates/multiverse Translation-en [740 B]
+Get:28 http://asi-fs-d.contabo.net/ubuntu impish-updates/multiverse amd64 c-n-f Metadata [224 B]
+Get:29 http://asi-fs-d.contabo.net/ubuntu impish-backports/main amd64 c-n-f Metadata [112 B]
+Get:30 http://asi-fs-d.contabo.net/ubuntu impish-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:31 http://asi-fs-d.contabo.net/ubuntu impish-backports/universe amd64 Packages [3428 B]
+Get:32 http://asi-fs-d.contabo.net/ubuntu impish-backports/universe Translation-en [1204 B]
+Get:33 http://asi-fs-d.contabo.net/ubuntu impish-backports/universe amd64 c-n-f Metadata [172 B]
+Get:34 http://asi-fs-d.contabo.net/ubuntu impish-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:35 http://asi-fs-d.contabo.net/ubuntu impish-security/main amd64 Packages [108 kB]
+Get:36 http://asi-fs-d.contabo.net/ubuntu impish-security/main Translation-en [28.8 kB]
+Get:37 http://asi-fs-d.contabo.net/ubuntu impish-security/main amd64 c-n-f Metadata [1548 B]
+Get:38 http://asi-fs-d.contabo.net/ubuntu impish-security/restricted amd64 Packages [90.0 kB]
+Get:39 http://asi-fs-d.contabo.net/ubuntu impish-security/restricted Translation-en [12.7 kB]
+Get:40 http://asi-fs-d.contabo.net/ubuntu impish-security/restricted amd64 c-n-f Metadata [440 B]
+Get:41 http://asi-fs-d.contabo.net/ubuntu impish-security/universe amd64 Packages [22.2 kB]
+Get:42 http://asi-fs-d.contabo.net/ubuntu impish-security/universe Translation-en [11.3 kB]
+Get:43 http://asi-fs-d.contabo.net/ubuntu impish-security/universe amd64 c-n-f Metadata [1156 B]
+Get:44 http://asi-fs-d.contabo.net/ubuntu impish-security/multiverse amd64 Packages [1084 B]
+Get:45 http://asi-fs-d.contabo.net/ubuntu impish-security/multiverse Translation-en [324 B]
+Get:46 http://asi-fs-d.contabo.net/ubuntu impish-security/multiverse amd64 c-n-f Metadata [116 B]
+Fetched 22.5 MB in 4s (6291 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+38 packages can be upgraded. Run 'apt list --upgradable' to see them.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.74.0-1.3ubuntu2).
+curl set to manually installed.
+The following packages were automatically installed and are no longer required:
+  eatmydata libeatmydata1 squashfs-tools
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 38 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  eatmydata libeatmydata1 squashfs-tools
+Use 'apt autoremove' to remove them.
+The following packages have been kept back:
+  linux-generic linux-headers-generic linux-image-generic
+The following packages will be upgraded:
+  apport bind9-dnsutils bind9-host bind9-libs bsdextrautils bsdutils eject
+  fdisk libblkid1 libfdisk1 libmount1 libnetplan0 libsmartcols1 libuuid1
+  linux-firmware mount netplan.io python3-apport python3-problem-report
+  python3-software-properties python3-update-manager
+  software-properties-common sosreport tzdata ubuntu-advantage-tools ufw
+  update-manager-core usrmerge util-linux uuid-runtime vim vim-common
+  vim-runtime vim-tiny xxd
+35 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+12 standard security updates
+Need to get 213 MB of archives.
+After this operation, 10.2 kB of additional disk space will be used.
+Get:1 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 bsdutils amd64 1:2.36.1-8ubuntu2 [82.8 kB]
+Get:2 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libblkid1 amd64 2.36.1-8ubuntu2 [98.2 kB]
+Get:3 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libuuid1 amd64 2.36.1-8ubuntu2 [23.3 kB]
+Get:4 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libfdisk1 amd64 2.36.1-8ubuntu2 [139 kB]
+Get:5 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libmount1 amd64 2.36.1-8ubuntu2 [116 kB]
+Get:6 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libsmartcols1 amd64 2.36.1-8ubuntu2 [49.6 kB]
+Get:7 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 fdisk amd64 2.36.1-8ubuntu2 [121 kB]
+Get:8 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 util-linux amd64 2.36.1-8ubuntu2 [1014 kB]
+Get:9 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 mount amd64 2.36.1-8ubuntu2 [110 kB]
+Get:10 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 bsdextrautils amd64 2.36.1-8ubuntu2 [75.0 kB]
+Get:11 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 uuid-runtime amd64 2.36.1-8ubuntu2 [31.0 kB]
+Get:12 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 usrmerge all 25ubuntu1.1 [54.7 kB]
+Get:13 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 eject amd64 2.36.1-8ubuntu2 [26.6 kB]
+Get:14 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 libnetplan0 amd64 0.103-0ubuntu7.1 [58.4 kB]
+Get:15 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 netplan.io amd64 0.103-0ubuntu7.1 [104 kB]
+Get:16 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 tzdata all 2021e-0ubuntu0.21.10 [339 kB]
+Get:17 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 ubuntu-advantage-tools amd64 27.4.1~21.10.1 [850 kB]
+Get:18 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 xxd amd64 2:8.2.2434-3ubuntu3.1 [50.8 kB]
+Get:19 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 vim amd64 2:8.2.2434-3ubuntu3.1 [1614 kB]
+Get:20 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 vim-tiny amd64 2:8.2.2434-3ubuntu3.1 [675 kB]
+Get:21 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 vim-runtime all 2:8.2.2434-3ubuntu3.1 [6703 kB]
+Get:22 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 vim-common all 2:8.2.2434-3ubuntu3.1 [81.3 kB]
+Get:23 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 bind9-dnsutils amd64 1:9.16.15-1ubuntu1.1 [149 kB]
+Get:24 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 bind9-libs amd64 1:9.16.15-1ubuntu1.1 [1241 kB]
+Get:25 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 bind9-host amd64 1:9.16.15-1ubuntu1.1 [49.0 kB]
+Get:26 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 python3-update-manager all 1:21.10.5 [38.7 kB]
+Get:27 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 update-manager-core all 1:21.10.5 [11.5 kB]
+Get:28 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 ufw all 0.36.1-1ubuntu1 [162 kB]
+Get:29 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 python3-problem-report all 2.20.11-0ubuntu71 [9882 B]
+Get:30 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 python3-apport all 2.20.11-0ubuntu71 [87.3 kB]
+Get:31 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 apport all 2.20.11-0ubuntu71 [132 kB]
+Get:32 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 linux-firmware all 1.201.1 [198 MB]
+Get:33 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 software-properties-common all 0.99.13.1 [14.3 kB]
+Get:34 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 python3-software-properties all 0.99.13.1 [32.2 kB]
+Get:35 http://asi-fs-d.contabo.net/ubuntu impish-updates/main amd64 sosreport amd64 4.2-1ubuntu0.21.10.1 [268 kB]
+Preconfiguring packages ...
+Fetched 213 MB in 9s (24.3 MB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../bsdutils_1%3a2.36.1-8ubuntu2_amd64.deb ...
+Unpacking bsdutils (1:2.36.1-8ubuntu2) over (1:2.36.1-8ubuntu1) ...
+Setting up bsdutils (1:2.36.1-8ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../libblkid1_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking libblkid1:amd64 (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Setting up libblkid1:amd64 (2.36.1-8ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../libuuid1_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking libuuid1:amd64 (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Setting up libuuid1:amd64 (2.36.1-8ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../libfdisk1_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking libfdisk1:amd64 (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../libmount1_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking libmount1:amd64 (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Setting up libmount1:amd64 (2.36.1-8ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../libsmartcols1_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking libsmartcols1:amd64 (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Setting up libsmartcols1:amd64 (2.36.1-8ubuntu2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../fdisk_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking fdisk (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../util-linux_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking util-linux (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Setting up util-linux (2.36.1-8ubuntu2) ...
+fstrim.service is a disabled or a static unit not running, not starting it.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70491 files and directories currently installed.)
+Preparing to unpack .../00-mount_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking mount (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../01-bsdextrautils_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking bsdextrautils (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../02-uuid-runtime_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking uuid-runtime (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../03-usrmerge_25ubuntu1.1_all.deb ...
+Unpacking usrmerge (25ubuntu1.1) over (25ubuntu1) ...
+Preparing to unpack .../04-eject_2.36.1-8ubuntu2_amd64.deb ...
+Unpacking eject (2.36.1-8ubuntu2) over (2.36.1-8ubuntu1) ...
+Preparing to unpack .../05-libnetplan0_0.103-0ubuntu7.1_amd64.deb ...
+Unpacking libnetplan0:amd64 (0.103-0ubuntu7.1) over (0.103-0ubuntu7) ...
+Preparing to unpack .../06-netplan.io_0.103-0ubuntu7.1_amd64.deb ...
+Unpacking netplan.io (0.103-0ubuntu7.1) over (0.103-0ubuntu7) ...
+Preparing to unpack .../07-tzdata_2021e-0ubuntu0.21.10_all.deb ...
+Unpacking tzdata (2021e-0ubuntu0.21.10) over (2021a-2ubuntu1) ...
+Preparing to unpack .../08-ubuntu-advantage-tools_27.4.1~21.10.1_amd64.deb ...
+Unpacking ubuntu-advantage-tools (27.4.1~21.10.1) over (27.2.2~21.10.1) ...
+Preparing to unpack .../09-xxd_2%3a8.2.2434-3ubuntu3.1_amd64.deb ...
+Unpacking xxd (2:8.2.2434-3ubuntu3.1) over (2:8.2.2434-3ubuntu3) ...
+Preparing to unpack .../10-vim_2%3a8.2.2434-3ubuntu3.1_amd64.deb ...
+Unpacking vim (2:8.2.2434-3ubuntu3.1) over (2:8.2.2434-3ubuntu3) ...
+Preparing to unpack .../11-vim-tiny_2%3a8.2.2434-3ubuntu3.1_amd64.deb ...
+Unpacking vim-tiny (2:8.2.2434-3ubuntu3.1) over (2:8.2.2434-3ubuntu3) ...
+Preparing to unpack .../12-vim-runtime_2%3a8.2.2434-3ubuntu3.1_all.deb ...
+Unpacking vim-runtime (2:8.2.2434-3ubuntu3.1) over (2:8.2.2434-3ubuntu3) ...
+Preparing to unpack .../13-vim-common_2%3a8.2.2434-3ubuntu3.1_all.deb ...
+Unpacking vim-common (2:8.2.2434-3ubuntu3.1) over (2:8.2.2434-3ubuntu3) ...
+Preparing to unpack .../14-bind9-dnsutils_1%3a9.16.15-1ubuntu1.1_amd64.deb ...
+Unpacking bind9-dnsutils (1:9.16.15-1ubuntu1.1) over (1:9.16.15-1ubuntu1) ...
+Preparing to unpack .../15-bind9-libs_1%3a9.16.15-1ubuntu1.1_amd64.deb ...
+Unpacking bind9-libs:amd64 (1:9.16.15-1ubuntu1.1) over (1:9.16.15-1ubuntu1) ...
+Preparing to unpack .../16-bind9-host_1%3a9.16.15-1ubuntu1.1_amd64.deb ...
+Unpacking bind9-host (1:9.16.15-1ubuntu1.1) over (1:9.16.15-1ubuntu1) ...
+Preparing to unpack .../17-python3-update-manager_1%3a21.10.5_all.deb ...
+Unpacking python3-update-manager (1:21.10.5) over (1:21.10.4) ...
+Preparing to unpack .../18-update-manager-core_1%3a21.10.5_all.deb ...
+Unpacking update-manager-core (1:21.10.5) over (1:21.10.4) ...
+Preparing to unpack .../19-ufw_0.36.1-1ubuntu1_all.deb ...
+Unpacking ufw (0.36.1-1ubuntu1) over (0.36.1-1) ...
+Preparing to unpack .../20-python3-problem-report_2.20.11-0ubuntu71_all.deb ...
+Unpacking python3-problem-report (2.20.11-0ubuntu71) over (2.20.11-0ubuntu70) ...
+Preparing to unpack .../21-python3-apport_2.20.11-0ubuntu71_all.deb ...
+Unpacking python3-apport (2.20.11-0ubuntu71) over (2.20.11-0ubuntu70) ...
+Preparing to unpack .../22-apport_2.20.11-0ubuntu71_all.deb ...
+Unpacking apport (2.20.11-0ubuntu71) over (2.20.11-0ubuntu70) ...
+Preparing to unpack .../23-linux-firmware_1.201.1_all.deb ...
+Unpacking linux-firmware (1.201.1) over (1.201) ...
+Preparing to unpack .../24-software-properties-common_0.99.13.1_all.deb ...
+Unpacking software-properties-common (0.99.13.1) over (0.99.13) ...
+Preparing to unpack .../25-python3-software-properties_0.99.13.1_all.deb ...
+Unpacking python3-software-properties (0.99.13.1) over (0.99.13) ...
+Preparing to unpack .../26-sosreport_4.2-1ubuntu0.21.10.1_amd64.deb ...
+Unpacking sosreport (4.2-1ubuntu0.21.10.1) over (4.1-1ubuntu2) ...
+Setting up bsdextrautils (2.36.1-8ubuntu2) ...
+Setting up bind9-libs:amd64 (1:9.16.15-1ubuntu1.1) ...
+Setting up linux-firmware (1.201.1) ...
+update-initramfs: Generating /boot/initrd.img-5.13.0-20-generic
+Setting up python3-problem-report (2.20.11-0ubuntu71) ...
+Setting up libnetplan0:amd64 (0.103-0ubuntu7.1) ...
+Setting up ufw (0.36.1-1ubuntu1) ...
+Setting up xxd (2:8.2.2434-3ubuntu3.1) ...
+Setting up python3-apport (2.20.11-0ubuntu71) ...
+Setting up netplan.io (0.103-0ubuntu7.1) ...
+Setting up tzdata (2021e-0ubuntu0.21.10) ...
+
+Current default time zone: 'Europe/Berlin'
+Local time is now:      Tue Nov 30 23:31:09 CET 2021.
+Universal Time is now:  Tue Nov 30 22:31:09 UTC 2021.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up eject (2.36.1-8ubuntu2) ...
+Setting up vim-common (2:8.2.2434-3ubuntu3.1) ...
+Setting up python3-software-properties (0.99.13.1) ...
+Setting up usrmerge (25ubuntu1.1) ...
+Setting up sosreport (4.2-1ubuntu0.21.10.1) ...
+Setting up libfdisk1:amd64 (2.36.1-8ubuntu2) ...
+Setting up mount (2.36.1-8ubuntu2) ...
+Setting up uuid-runtime (2.36.1-8ubuntu2) ...
+uuidd.service is a disabled or a static unit not running, not starting it.
+Setting up python3-update-manager (1:21.10.5) ...
+Setting up ubuntu-advantage-tools (27.4.1~21.10.1) ...
+Installing new version of config file /etc/logrotate.d/ubuntu-advantage-tools ...
+Installing new version of config file /etc/ubuntu-advantage/help_data.yaml ...
+Installing new version of config file /etc/ubuntu-advantage/uaclient.conf ...
+Created symlink /etc/systemd/system/timers.target.wants/ua-timer.timer → /lib/systemd/system/ua-timer.timer.
+Created symlink /etc/systemd/system/multi-user.target.wants/ua-license-check.path → /lib/systemd/system/ua-license-check.path.
+Setting up vim-runtime (2:8.2.2434-3ubuntu3.1) ...
+Setting up bind9-host (1:9.16.15-1ubuntu1.1) ...
+Setting up vim (2:8.2.2434-3ubuntu3.1) ...
+Setting up vim-tiny (2:8.2.2434-3ubuntu3.1) ...
+Setting up software-properties-common (0.99.13.1) ...
+Setting up apport (2.20.11-0ubuntu71) ...
+apport-autoreport.service is a disabled or a static unit, not starting it.
+Setting up fdisk (2.36.1-8ubuntu2) ...
+Setting up update-manager-core (1:21.10.5) ...
+Setting up bind9-dnsutils (1:9.16.15-1ubuntu1.1) ...
+Processing triggers for rsyslog (8.2102.0-2ubuntu2) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for dbus (1.12.20-2ubuntu2) ...
+Processing triggers for libc-bin (2.34-0ubuntu3) ...
+NEEDRESTART-VER: 3.5
+NEEDRESTART-KCUR: 5.13.0-20-generic
+NEEDRESTART-KEXP: 5.13.0-20-generic
+NEEDRESTART-KSTA: 1
+NEEDRESTART-SVC: getty@tty1.service
+NEEDRESTART-SVC: networkd-dispatcher.service
+NEEDRESTART-SVC: packagekit.service
+NEEDRESTART-SVC: polkit.service
+NEEDRESTART-SVC: systemd-journald.service
+NEEDRESTART-SVC: systemd-logind.service
+NEEDRESTART-SVC: systemd-networkd.service
+NEEDRESTART-SVC: systemd-resolved.service
+NEEDRESTART-SVC: systemd-timesyncd.service
+NEEDRESTART-SVC: systemd-udevd.service
+NEEDRESTART-SVC: udisks2.service
+NEEDRESTART-SVC: unattended-upgrades.service
++ echo 'deb http://download.webmin.com/download/repository sarge contrib'
++ apt install -y gnupg
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gnupg is already the newest version (2.2.20-1ubuntu4).
+gnupg set to manually installed.
+The following packages were automatically installed and are no longer required:
+  eatmydata libeatmydata1 squashfs-tools
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
++ wget --no-check-certificate -O /tmp/webmin-key.asc https://download.webmin.com/jcameron-key.asc
+--2021-11-30 23:31:24--  https://download.webmin.com/jcameron-key.asc
+Resolving download.webmin.com (download.webmin.com)... 104.207.151.13, 108.60.199.109
+Connecting to download.webmin.com (download.webmin.com)|104.207.151.13|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1320 (1.3K) [text/plain]
+Saving to: ‘/tmp/webmin-key.asc’
+
+     0K .                                                     100%  156M=0s
+
+2021-11-30 23:31:32 (156 MB/s) - ‘/tmp/webmin-key.asc’ saved [1320/1320]
+
++ apt-key add /tmp/webmin-key.asc
+Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
+OK
++ sleep 2
++ apt update
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://asi-fs-d.contabo.net/ubuntu impish InRelease
+Hit:2 http://asi-fs-d.contabo.net/ubuntu impish-updates InRelease
+Hit:3 http://asi-fs-d.contabo.net/ubuntu impish-backports InRelease
+Hit:4 http://asi-fs-d.contabo.net/ubuntu impish-security InRelease
+Ign:5 http://download.webmin.com/download/repository sarge InRelease
+Get:6 http://download.webmin.com/download/repository sarge Release [16.9 kB]
+Get:7 http://download.webmin.com/download/repository sarge Release.gpg [173 B]
+Get:8 http://download.webmin.com/download/repository sarge/contrib amd64 Packages [1381 B]
+Fetched 18.4 kB in 1s (15.7 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
++ apt -y install apt-transport-https tar webmin curl
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.74.0-1.3ubuntu2).
+tar is already the newest version (1.34+dfsg-1build1).
+tar set to manually installed.
+The following packages were automatically installed and are no longer required:
+  eatmydata libeatmydata1 squashfs-tools
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libauthen-pam-perl libio-pty-perl libnet-ssleay-perl perl-openssl-defaults
+  unzip
+Suggested packages:
+  zip
+The following NEW packages will be installed:
+  apt-transport-https libauthen-pam-perl libio-pty-perl libnet-ssleay-perl
+  perl-openssl-defaults unzip webmin
+0 upgraded, 7 newly installed, 0 to remove and 3 not upgraded.
+Need to get 28.7 MB of archives.
+After this operation, 304 MB of additional disk space will be used.
+Get:1 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 perl-openssl-defaults amd64 5 [7404 B]
+Get:2 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 libnet-ssleay-perl amd64 1.88-3ubuntu1 [292 kB]
+Get:3 http://asi-fs-d.contabo.net/ubuntu impish/universe amd64 libauthen-pam-perl amd64 0.16-3build8 [24.2 kB]
+Get:4 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 libio-pty-perl amd64 1:1.15-2build1 [35.1 kB]
+Get:5 http://asi-fs-d.contabo.net/ubuntu impish/main amd64 unzip amd64 6.0-26ubuntu1 [168 kB]
+Get:6 http://asi-fs-d.contabo.net/ubuntu impish/universe amd64 apt-transport-https all 2.3.9 [1510 B]
+Get:7 http://download.webmin.com/download/repository sarge/contrib amd64 webmin all 1.982 [28.1 MB]
+Fetched 28.7 MB in 4s (7598 kB/s)
+Selecting previously unselected package perl-openssl-defaults:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 70529 files and directories currently installed.)
+Preparing to unpack .../0-perl-openssl-defaults_5_amd64.deb ...
+Unpacking perl-openssl-defaults:amd64 (5) ...
+Selecting previously unselected package libnet-ssleay-perl.
+Preparing to unpack .../1-libnet-ssleay-perl_1.88-3ubuntu1_amd64.deb ...
+Unpacking libnet-ssleay-perl (1.88-3ubuntu1) ...
+Selecting previously unselected package libauthen-pam-perl.
+Preparing to unpack .../2-libauthen-pam-perl_0.16-3build8_amd64.deb ...
+Unpacking libauthen-pam-perl (0.16-3build8) ...
+Selecting previously unselected package libio-pty-perl.
+Preparing to unpack .../3-libio-pty-perl_1%3a1.15-2build1_amd64.deb ...
+Unpacking libio-pty-perl (1:1.15-2build1) ...
+Selecting previously unselected package unzip.
+Preparing to unpack .../4-unzip_6.0-26ubuntu1_amd64.deb ...
+Unpacking unzip (6.0-26ubuntu1) ...
+Selecting previously unselected package webmin.
+Preparing to unpack .../5-webmin_1.982_all.deb ...
+Unpacking webmin (1.982) ...
+Selecting previously unselected package apt-transport-https.
+Preparing to unpack .../6-apt-transport-https_2.3.9_all.deb ...
+Unpacking apt-transport-https (2.3.9) ...
+Setting up apt-transport-https (2.3.9) ...
+Setting up libio-pty-perl (1:1.15-2build1) ...
+Setting up unzip (6.0-26ubuntu1) ...
+Setting up perl-openssl-defaults:amd64 (5) ...
+Setting up libauthen-pam-perl (0.16-3build8) ...
+Setting up libnet-ssleay-perl (1.88-3ubuntu1) ...
+Setting up webmin (1.982) ...
+Webmin install complete. You can now login to https://vmi725381.contaboserver.net:10000/
+as root with your root password, or as any user who can use sudo
+to run commands as root.
+Processing triggers for man-db (2.9.4-2) ...
+NEEDRESTART-VER: 3.5
+NEEDRESTART-KCUR: 5.13.0-20-generic
+NEEDRESTART-KEXP: 5.13.0-20-generic
+NEEDRESTART-KSTA: 1
+NEEDRESTART-SVC: getty@tty1.service
+NEEDRESTART-SVC: networkd-dispatcher.service
+NEEDRESTART-SVC: packagekit.service
+NEEDRESTART-SVC: polkit.service
+NEEDRESTART-SVC: systemd-journald.service
+NEEDRESTART-SVC: systemd-logind.service
+NEEDRESTART-SVC: systemd-networkd.service
+NEEDRESTART-SVC: systemd-resolved.service
+NEEDRESTART-SVC: systemd-timesyncd.service
+NEEDRESTART-SVC: systemd-udevd.service
+NEEDRESTART-SVC: udisks2.service
+NEEDRESTART-SVC: unattended-upgrades.service
++ sleep 2
++ systemctl enable webmin.service
+webmin.service is not a native service, redirecting to systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable webmin
++ log 1 4
++ test -z ''
++ [[ 1 -eq 0 ]]
++ [[ 1 -eq 1 ]]
++ [[ 4 -eq 0 ]]
++ [[ 4 -eq 1 ]]
++ [[ 4 -eq 2 ]]
++ [[ 4 -eq 3 ]]
++ [[ 4 -eq 4 ]]
++ curl -s 'https://asi-ext-d.contabo.net?action=setBootstatus&hostname=vmi725381&status=pf&token=4649B50C0FB971C00652B3E616306261'
++ log 1 2
++ test -z ''
++ [[ 1 -eq 0 ]]
++ [[ 1 -eq 1 ]]
++ [[ 2 -eq 0 ]]
++ [[ 2 -eq 1 ]]
++ [[ 2 -eq 2 ]]
++ curl -s 'https://asi-ext-d.contabo.net?action=setBootstatus&hostname=vmi725381&status=if&token=4649B50C0FB971C00652B3E616306261'
++ rm /root/webmin_install.log
