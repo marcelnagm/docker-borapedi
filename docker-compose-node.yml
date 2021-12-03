@@ -26,12 +26,12 @@ services:
             context: ./
             dockerfile: node.docker
        volumes:
-          - ./WhatsApp/tokens:/home/node/app/tokens
+          - ./tokens:/home/node/app/tokens
        environment:
           NODE_ENV: development
 #       command: /app/entrypoint.sh
        ports:
-          - 9002:9002
+          - 9002
        environment:
         - HOST=0.0.0.0
         - PORT=9002
@@ -41,7 +41,7 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
-      - "80:80"
+      - "9003:9003"
 volumes:
     portainer_data: 
      driver: local
