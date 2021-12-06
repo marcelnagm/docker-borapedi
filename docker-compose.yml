@@ -12,7 +12,7 @@ services:
        links:
        - "db:database"
        ports:
-          - 80:80
+          - 81
        environment:
          WWWUSER: borapedi
          WWWGROUP: borapedi    
@@ -46,13 +46,15 @@ services:
       - PMA_HOST=db
     depends_on:
       - db
-#  nginx:
-#    container_name: nginx
-#    image: nginx:latest
-#    volumes:
-#      - ./nginx.conf:/etc/nginx/nginx.conf:ro
-#    ports:
-#      - "80:80"
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    links:
+     - web
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
   portainer:
     container_name: portainer
     entrypoint:
