@@ -23,10 +23,10 @@ services:
     container_name: db
     image: mariadb:10.2
     environment:
-      MYSQL_ROOT_PASSWORD: 29uHIqY8duH3
-      MYSQL_DATABASE: borapedi_food
-      MYSQL_USER: borapedi_user
-      MYSQL_PASSWORD: 29uHIqY8duH3
+      MYSQL_ROOT_PASSWORD: #
+      MYSQL_DATABASE: #
+      MYSQL_USER: #
+      MYSQL_PASSWORD: #
     ports:
      - "3306:3306"
     logging:
